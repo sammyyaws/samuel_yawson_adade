@@ -35,7 +35,7 @@ this.better=better;
 this.best=best;
 }
  var rank=new DepRank("social","jobAdd","Agric","medicine","IT","computer");
-    alert(rank.worst)
-//for(counter=0;counter<=Rank.length;counter++){
- //   document.write(Rank.worst);
-//};
+    
+for(counter=0;counter<=9;counter++){
+    document.write(rank.worst+ " ");
+};
