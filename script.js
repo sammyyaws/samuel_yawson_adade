@@ -25,3 +25,17 @@ function ConsolePlay(){
     console.log(Schools.Site)
 }
   ConsolePlay(); 
+  /** creating objects in javascript */
+function DepartRank(worst,worse,bad,good,better,best){
+this.worst=worst;
+this.worse=worse;
+this.bad=bad;
+this.good=good;
+this.better=better;
+this.best=best;
+};
+var Rank=DepartRank("social","jobAdd","Agric","medicine","IT","computer");
+alert(Rank.worst)
+//for(counter=0;counter<=Rank.length;counter++){
+ //   document.write(Rank.worst);
+//};
