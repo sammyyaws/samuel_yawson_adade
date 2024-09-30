@@ -39,3 +39,4 @@ this.best=best;
 for(counter=0;counter<=9;counter++){
     document.write(rank.worst+ " "+ rank.best);
 };
+/**addition of methods */
