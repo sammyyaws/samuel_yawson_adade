@@ -40,3 +40,15 @@ for(counter=0;counter<=9;counter++){
     document.write(rank.worst+ " "+ rank.best);
 };
 /**addition of methods */
+function ChangePosition(firstPosition,OldPosition){
+this.firstPosition=firstPosition;
+this.OldPosition=OldPosition;
+this.NewPosition=function (firstPosition){
+    this.firstPosition=firstPosition;
+
+}
+}
+
+var Position= new ChangePosition("Head","tail");
+Position.NewPosition("middle")
+document.write(Position.firstPosition);
