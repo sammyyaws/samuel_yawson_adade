@@ -52,3 +52,5 @@ this.NewPosition=function (firstPosition){
 var Position= new ChangePosition("Head","tail");
 Position.NewPosition("middle")
 document.write(Position.firstPosition);
+
+/** Arrays */
