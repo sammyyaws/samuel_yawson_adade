@@ -53,6 +53,10 @@ var Position= new ChangePosition("Head","tail");
 Position.NewPosition("middle")
 document.write(Position.firstPosition);
 
-/** Arrays */
+/** Arrays */ 
 var names=["hannah","ella","theodora","lois", "erica","bridget"];
 document.write(names[0])
+
+var othernames=new Array("kainaman","leurel","kantidangle")
+document.write(othernames[0])
+
