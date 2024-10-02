@@ -54,3 +54,5 @@ Position.NewPosition("middle")
 document.write(Position.firstPosition);
 
 /** Arrays */
+var othernames=new Array("kainaman","leurel","kantidangle")
+document.write(othernames[0])
