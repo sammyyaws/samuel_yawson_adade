@@ -54,3 +54,5 @@ Position.NewPosition("middle")
 document.write(Position.firstPosition);
 
 /** Arrays */
+var names=["hannah","ella","theodora","lois", "erica","bridget"];
+document.write(names[0])
