@@ -60,3 +60,13 @@ document.write(names[0])
 var othernames=new Array("kainaman","leurel","kantidangle")
 document.write(othernames[0])
 
+/**Date Object */
+function Dating(){
+    var GetDate=new Date();
+    var getToday=new Date(day);
+    var getTime=new Date(hours,minutes,seconds);
+    document.getElementById("date").innerHTML=GetDate;
+    document.getElementById("day").innerHTML=getToday;
+    document.getElementById("time").innerHTML=getTime
+
+}
