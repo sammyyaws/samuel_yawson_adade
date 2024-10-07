@@ -70,3 +70,4 @@ function Dating(){
     document.getElementById("time").innerHTML=getTime
 
 }
+setInterval(Dating,3000)
