@@ -63,7 +63,7 @@ document.write(othernames[0])
 /**Date Object */
 function Dating(){
    let d=new Date();
-   document.getElementById("date").innerHTML=d;
+   document.getElementById("date").innerHTML=d.toDateString();
    let Day=d.getDay()
     switch (Day){
         case 0:
