@@ -62,8 +62,36 @@ document.write(othernames[0])
 
 /**Date Object */
 function Dating(){
-   const d=new Date();
-    document.getElementById("date").innerHTML=d;
+   let d=new Date();
+   document.getElementById("date").innerHTML=d;
+   let Day=d.getDay()
+    switch (Day){
+        case 0:
+            document.getElementById("day").innerHTML="Sunday";
+            break;
+        case 1:
+                document.getElementById("day").innerHTML="Monday";
+            break;
+        case 2:
+                document.getElementById("day").innerHTML="Tuesday";
+            break;
+        case 3:
+                document.getElementById("day").innerHTML="Wedneseday";
+                break;
+        case 4:
+                document.getElementsById("day").innerHTML="Thursday";
+                break;
+        case 5:
+                document.getElementById("day").innerHTML="Friday";
+                break;
+        case 6:
+                document.getElementById("day").innerHTML="Saturday";
+                break;
+                default:
+                    document.getElementById("day").innerHTML="we have nothing for you"
+    
+        
+        }
     
 }
 setInterval(Dating,3000)
