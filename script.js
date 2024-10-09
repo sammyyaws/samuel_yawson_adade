@@ -62,13 +62,9 @@ document.write(othernames[0])
 
 /**Date Object */
 function Dating(){
-    var date=new Date();
+   const d=new Date();
+    document.getElementById("date").innerHTML=d;
     
-    var getToday=date.getDay;
-    var GetTime=date.getTime;
-    document.getElementById("date").innerHTML=date;
-    document.getElementById("day").innerHTML=getToday;
-    document.getElementById("time").innerHTML=GetTime
-
 }
-Dating()
+setInterval(Dating,3000)
+
