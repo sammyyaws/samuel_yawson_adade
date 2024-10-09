@@ -95,4 +95,9 @@ function Dating(){
     
 }
 setInterval(Dating,3000)
-
+/**javascript string searching */
+var MainString="i love to create build and innovate and be the first person to create something awesome that solves a problem"
+//indexOf()
+let IndexOne=MainString.indexOf("create");
+let SearchOne=MainString.search("first");
+document.getElementById("string").innerHTML="The indexOF is:"+IndexOne+" "+ SearchOne
