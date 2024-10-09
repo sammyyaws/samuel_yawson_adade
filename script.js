@@ -63,10 +63,10 @@ document.write(othernames[0])
 /**Date Object */
 function Dating(){
     var date=new Date();
-    var GetDate=date.getDate
+    
     var getToday=date.getDay;
     var GetTime=date.getTime;
-    document.getElementById("date").innerHTML=GetDate;
+    document.getElementById("date").innerHTML=date;
     document.getElementById("day").innerHTML=getToday;
     document.getElementById("time").innerHTML=GetTime
 
