@@ -99,5 +99,12 @@ setInterval(Dating,3000)
 var MainString="i love to create build and innovate and be the first person to create something awesome that solves a problem"
 //indexOf()
 let IndexOne=MainString.indexOf("create");
+//search
 let SearchOne=MainString.search("first");
-document.getElementById("string").innerHTML="The indexOF is:"+IndexOne+" "+ SearchOne
+//match
+let Match=MainString.match("some")
+
+
+alert(Match.length+" "+Match)
+alert( "The use of IndexOf"+" "+IndexOne);
+alert(SearchOne);
