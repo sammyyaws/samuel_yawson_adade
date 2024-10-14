@@ -108,3 +108,18 @@ let Match=MainString.match("some")
 alert(Match.length+" "+Match)
 alert( "The use of IndexOf"+" "+IndexOne);
 alert(SearchOne);
+
+//addition of sting template
+//the allow for interpolation 
+//example
+let firstGirl="juliet";
+let scndGirl="Lois";
+var allGirls=`i use to follow ${firstGirl} and chase ${scndGirl}`;
+confirm(allGirls)
+
+//w3schools  arrays and arrray methods
+//looping throuhh arrays
+let Skills=["money","ladies","git","html","css","girls",]
+for (x=0;x<=Skills.length; ++x){
+alert(Skills[x])
+}
