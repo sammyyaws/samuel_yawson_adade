@@ -122,4 +122,10 @@ confirm(allGirls)
 let Skills=["money","ladies","git","html","css","girls",]
 for (x=0;x<=Skills.length; ++x){
 alert(Skills[x])
-}
+} 
+// JAVASCRIPT COMPARISONS
+//Ternary Operators
+ var Taste=prompt("Enter your taste");
+ var getTaste=Taste;
+let TestTaste= (Taste=="beautiful")? "You have a good taste":"Your taste sucks";
+alert(TestTaste);
