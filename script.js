@@ -129,3 +129,11 @@ alert(Skills[x])
  var getTaste=Taste;
 let TestTaste= (Taste=="beautiful")? "You have a good taste":"Your taste sucks";
 alert(TestTaste);
+//for in loops
+// looping through the properties of sn object
+
+const goals={ first:"forex millionare", second:"tech guru", third:"travel vlog"};
+
+for(let x in goals){
+alert(goals[x]);
+}
