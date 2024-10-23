@@ -137,3 +137,17 @@ const goals={ first:"forex millionare", second:"tech guru", third:"travel vlog"}
 for(let x in goals){
 alert(goals[x]);
 }
+//ForEach() iteration
+//the function reapeat itself for each element of the array
+const Life=["Money","goals","family"];
+Life.forEach(CaLL_Life);
+function CaLL_Life(value){
+alert("Life involves"+ value);
+}
+// for of loops
+
+var MyIdea="The best";
+
+for (let m of MyIdea){
+   alert(m)
+}
